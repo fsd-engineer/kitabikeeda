@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+.banner-img {
+    margin-top: 60px;
+  }
+  
+  .home-page h1 {
+    color: #371F76;
+    font-family: "Tangerine", serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;  
+  }
+  .home-page .card {
+    background-color: #E6E6FA;
+    width: 18rem;
+  }
+  .home-page .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-page .card-price {
+    color: purple;
+    font-weight: bold;
+  }
+  .home-page button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .home-page .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .home-page .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .home-page .card-img-top {
+    height: 300px !important;
+  }
+  /* ==================
+  filters
+  ============== */
+  .filters h4 {
+    margin-top: 100px;
+    color: #371F76 !important;
+    font-family: "Tangerine", serif;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: #371F76;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .loadmore {
+    color: plum;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
+  .custom-carousel .slick-slide legend {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-top: 10px; /* Adjust the top margin as needed */
+    color: #333; /* Text color for the product name */
+    
+    margin-left: 50px;
+  }
