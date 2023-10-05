@@ -35,16 +35,12 @@ const Header = () => {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <Link to="/">
-              <img
-                src="/images/writoquotes.png" // Replace with the actual image file path
-                alt="WritoQuotes Logo"
-                style={{
-                  width: '150px', // Adjust the width and height as needed
-                  height: 'auto',
-                }}
-              />
-            </Link>
+          <Link to="/" style={{ textDecoration: 'none'}}>
+    
+          <h4 style={{ fontFamily: "Tangerine, serif", fontweight:"bold",fontSize:"25px",color:"#371F76" }}>📖✏️ kitabikeeda</h4>
+
+
+</Link>
 
 
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
