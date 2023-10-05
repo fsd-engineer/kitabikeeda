@@ -7,7 +7,7 @@ import authRoute from "./routes/authRoute.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import ProductRoutes from "./routes/productRoute.js";
 import cors from "cors";
-import path from "path"; // Change Path to path
+import * as path from "path"; // Update the import statement
 import { fileURLToPath } from "url";
 
 // Configure .env
